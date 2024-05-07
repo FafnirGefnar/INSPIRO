@@ -1,0 +1,18 @@
+    .flex{
+        display: flex;
+    }
+
+    .main-section{
+        background-image: url(./cyberpunk\ wallpaper.jpg);
+    }
+
+    .main-banner {
+        background-image: url(vr.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 40vh;
+        display: flex;
+        align-items: center;
+        padding: 600px;
+    }
