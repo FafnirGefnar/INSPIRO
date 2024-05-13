@@ -1,18 +1,52 @@
-    .flex{
-        display: flex;
-    }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    .main-section{
-        background-image: url(./cyberpunk\ wallpaper.jpg);
-    }
+h1{
+    margin: 0;
+}
 
-    .main-banner {
-        background-image: url(vr.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        min-height: 40vh;
-        display: flex;
-        align-items: center;
-        padding: 600px;
-    }
+.flex {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+}
+
+.header__section {
+    background-color: rgb(19, 19, 19);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 30px;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__column {
+    display: flex;
+    gap: 20px;
+}
+
+.main__section {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.main__banner{
+    max-width: 100%;
+}
