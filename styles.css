@@ -3,7 +3,7 @@ a {
     color: inherit;
 }
 
-h1{
+h1 {
     margin: 0;
 }
 
@@ -42,11 +42,12 @@ h1{
     gap: 20px;
 }
 
-.main__section {
-    max-width: 100%;
-    max-height: auto;
-}
 
-.main__banner{
-    max-width: 100%;
+
+.main__banner {
+    background-image: url(./inspiro-background.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
