@@ -11,8 +11,20 @@ h1 {
     display: flex;
 }
 
+.grid {
+    display: grid;
+}
+
+.space {
+    align-content: space-between;
+}
+
 .center {
     text-align: center;
+}
+
+body{
+    margin: 0;
 }
 
 .container {
@@ -49,5 +61,35 @@ h1 {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 80px;
 
+}
+
+.cards__row-3cards{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cards__row{
+    text-align: center;
+}
+
+.cards__row-arrivals{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cards__card-arrivals{
+    padding-bottom: 80px;
+}
+
+.activities{
+    background-color: rgb(27, 27, 27);
+}
+
+.cards__row-activities{
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+
+.cards__card-activities{
+    padding-bottom: 80px;
 }
