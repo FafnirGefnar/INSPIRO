@@ -7,6 +7,12 @@ h1 {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
 .flex {
     display: flex;
 }
@@ -23,7 +29,7 @@ h1 {
     text-align: center;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -65,31 +71,42 @@ body{
 
 }
 
-.cards__row-3cards{
+.cards__row-3cards {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.cards__row{
+.cards__row {
     text-align: center;
 }
 
-.cards__row-arrivals{
+.cards__row-arrivals {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.cards__card-arrivals{
+.cards__card-arrivals {
     padding-bottom: 80px;
 }
 
-.activities{
+.activities {
     background-color: rgb(27, 27, 27);
+    margin-bottom: 100px;
 }
 
-.cards__row-activities{
+.cards__row-activities {
     grid-template-columns: repeat(3, 1fr);
     color: white;
 }
 
-.cards__card-activities{
+.cards__card-activities {
     padding-bottom: 80px;
+}
+
+.cards__row-products {
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.cards__card-products {
+    padding-bottom: 80px;
+    margin: 0 20px 0 20px;
 }
